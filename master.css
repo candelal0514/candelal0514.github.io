@@ -1,0 +1,12 @@
+html{
+	background-image: url("background.jpg");
+	background-size:100%;
+	background-attachment:fixed;
+}
+
+header {
+    background-image:url("filter.png");
+    color:white;
+    text-align:center;
+    padding:5px;	
+}
