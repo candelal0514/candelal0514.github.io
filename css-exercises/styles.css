@@ -5,6 +5,12 @@
   padding:5px;
 }
 
+#usebg{
+  background-image:url("/images/background2.jpg");
+  background-size:100%;
+  background-attachment:fixed;
+}
+
 h1 {
   color:blue;
   font-family: verdana;
