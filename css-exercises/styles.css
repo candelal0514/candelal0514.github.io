@@ -1,8 +1,31 @@
+h1 {
+  color:blue;
+  font-family: verdana;
+}
+
 p {
   color:red;
 }
 
-header {
-  background-image:"https://www.transparenttextures.com/patterns/white-wall-3-2.png";
-  background-color:gray;
+#id1{
+  color:yellow;
+  text-align:right;
+  position:absolute;
+  right:5px;
+  top:5px;
+}
+
+.bluev {
+  color:green;
+  font-family:Verdana;
+}
+
+.center {
+  text-align:center;
+  color:red;
+}
+
+.redcomic p {
+  color:brown;
+  font-family:comic sans ms;
 }
