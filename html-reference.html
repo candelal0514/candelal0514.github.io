@@ -2,9 +2,7 @@
 <html>
   <head>
     <style>
-  table {
-    width:400px;
-  }
+
 	table, th, td {
     		border: 5px solid black;
     		text-align: left;
@@ -18,7 +16,93 @@
   <body>
    
     <h1>HTML Reference Page</h1>
-   
+  <a href="#html">HTML Section</a>
+  <div name="html"> 
+   <h2>HTML Element</h2>
+   <h3>Description</h3>
+   <p>All HTML code goes within the HTML open and end tag</p>
+   <h3>Syntax</h3>
+    <pre>
+    &lt;html&gt;
+      &lt;head&gt;
+        Abstract content
+      &lt;/head&gt;
+      
+      &lt;body&gt;
+        Visual content
+      &lt;/body&gt;
+    &lt;/html&gt;</pre>
+    <hr>
+    </div>
+  <div name="head">
+    <h2>Head Element</h2>
+    <h3>Description</h3>
+    <p>Contains the invisible aspect of your website such as the title element of the page, and referencing a stylesheet.</p>
+    <h3>Syntax</h3>
+    <pre>
+      &lt;head&gt;
+        Abstract Content
+      &lt;/head&gt;</pre>
+      <hr>
+  </div>
+  <div name="title"> 
+   <h2>Title Element</h2>
+    <h3>Description</h3>
+    <p>Creates a description of the page at the top of the tab</p>
+    <h3>Syntax</h3>
+    <p>&lt;title&gt;Title Content&lt;/title&gt;</p>
+    <h3>Example</h3>
+    <table>
+      <tr>
+        <th>Syntax</th>
+        <th>Output</th>
+      </tr>
+      <tr>
+        <td><p>&lt;title&gt;This is a title&lt;/title&gt;</p></td>
+        <td><img src="images/titleexample.png" alt="This is a title"></td>
+      </tr>
+    </table>
+    <hr>
+  </div>
+  <div name="body">
+    <h2>Body Element</h2>
+    <h3>Description</h3>
+    <p>The body element usually contains all of the content on your website</p>
+    <h3>Syntax</h3>
+    <p>&lt;body&gt;<br>Website Content<br>&lt;/body&gt;</p>
+    <h3>Example</h3>
+    <table>
+      <tr>
+        <th>Syntax</th>
+        <th>Output</th>
+      </tr>
+      <tr>
+        <td><p>&lt;body&gt;<br>&lt;h1&gt;Heading&lt;/h1&gt;<br>&lt;p&gt;Paragraph&lt;/p&gt;&lt;/title&gt;<br>&lt;/body&gt;</p></td>
+        <td><h1>Heading</h1><p>Paragraph</p></td>
+      </tr>
+    </table>
+    <hr>
+  </div>
+  <div name="heading">
+    <h2>Heading Elements</h2>
+    <h3>Description</h3>
+    <p>Creates a bolded line of text on a new line. Can choose from h1 through h6 for different sizes. h1 is the largest and h6 is the smallest</p>
+    <h3>Syntax</h3>
+    <p>&lt;h1&gt;Heading Content&lt;/h1&gt;</p>
+    <h3>Example</h3>
+    <table>
+      <tr>
+        <th>Syntax</th>
+        <th>Output</th>
+      </tr>
+      <tr>
+        <td><p>&lt;h1&gt;This is a heading&lt;/h1&gt;</p></td>
+        <td><h1>This is a heading</h1></td>
+      </tr>
+    </table>
+    <hr>
+    </div>
+  <div name="paragraph">
     <h2>Paragraph Element</h2>
     <h3>Description</h3>
     <p>Creates a paragraph on a new line.</p>
@@ -36,12 +120,13 @@
       </tr>
     </table>
     <hr>
-    
-    <h2>Heading Element</h2>
+    </div>
+  <div name="break">
+    <h2>Break Element</h2>
     <h3>Description</h3>
-    <p>Creates a bolded line of text on a new line. Can choose from h1 through h6 for different sizes. h1 is the largest and h6 is the smallest</p>
+    <p>Creates a line break.</p>
     <h3>Syntax</h3>
-    <p>&lt;h1&gt;Heading Content&lt;/h1&gt;</p>
+    <p>&lt;br&gt;</p>
     <h3>Example</h3>
     <table>
       <tr>
@@ -49,17 +134,18 @@
         <th>Output</th>
       </tr>
       <tr>
-        <td><p>&lt;h1&gt;This is a heading&lt;/h1&gt;</p></td>
-        <td><h1>This is a heading</h1></td>
+        <td><p>&lt;p&gt;This is &lt;br&gt; a paragraph&lt;/p&gt;</p></td>
+        <td><p>This is <br> a paragraph</p></td>
       </tr>
     </table>
     <hr>
-    
-    <h2>Title Element</h2>
+    </div>
+  <div name="linebreak">
+    <h2>Line Element</h2>
     <h3>Description</h3>
-    <p>Creates a description of the page at the top of the tab</p>
+    <p>Creates a horizontal line across the screen.</p>
     <h3>Syntax</h3>
-    <p>&lt;title&gt;Title Content&lt;/title&gt;</p>
+    <p>&lt;hr&gt;</p>
     <h3>Example</h3>
     <table>
       <tr>
@@ -67,11 +153,36 @@
         <th>Output</th>
       </tr>
       <tr>
-        <td><p>&lt;title&gt;This is a title&lt;/title&gt;</p></td>
-        <td><img src="images/titleexample.png" alt="This is a title"></td>
+        <td><p>&lt;p&gt;This is a paragraph&lt;/p&gt;<br>&lt;hr&gt;<br>&lt;h1&gt;This is a heading&lt;/h1&gt;</p></td>
+        <td><p>This is a paragraph</p><hr><h1>This is a heading</h1></td>
       </tr>
     </table>
     <hr>
+    </div>
+  <div name="comment">
+    <h2>Comment Elemnt</h2>
+    <h3>Description</h3>
+    <p>A note that cannot be seen on your screen, but only in the code</p>
+    <h3>Syntax</h3>
+    <p>&lt;!-- Comment Content --&gt;</p>
+    <h3>Example</h3>
+    <table>
+      <tr>
+        <th>Syntax</th>
+        <th>Output</th>
+      </tr>
+      <tr>
+        <td><p>&lt;!-- This will not show up on the website --&gt;</p></td>
+        <td><!-- This will not show up on the website --></td>
+      </tr>
+    </table>
+    <hr>
+    </div>
+  <div name="link">
+    <h2>Link Element</h2>
+    <h3>Description</h3>
+    <p>A hyperlink that will </p>
+    </div>
     
   </body>
 </html>
