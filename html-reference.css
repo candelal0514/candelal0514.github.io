@@ -1,0 +1,26 @@
+body {
+  font-family: "Trebuchet MS", Arial, Sans-Serif;
+}
+
+.center {
+  text-align:center;
+}
+
+.examplestyle {
+  border-left: 20px solid lightgreen;
+  padding-left:20px;
+  padding-bottom:20px;
+  padding-top:1px;
+  background-color: #f2ede8;
+}
+
+.examplestyle th, .examplestyle td, .examplestyle table {
+  text-align:left;
+  border:2px solid black;
+  padding:2px;
+}
+
+#nostyle, #nostyle th, #nostyle td{
+  border:hidden !important;
+}
+
