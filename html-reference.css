@@ -1,5 +1,6 @@
 body {
   font-family: "Trebuchet MS", Arial, Sans-Serif;
+  background-color:#F1F1F1;
 }
 
 .center {
@@ -7,20 +8,46 @@ body {
 }
 
 .examplestyle {
-  border-left: 20px solid lightgreen;
+  border-left: 20px solid #4CAF50;
   padding-left:20px;
   padding-bottom:20px;
   padding-top:1px;
-  background-color: #f2ede8;
+  background-color: #A9E2AD;
+  color:#000000;
 }
 
 .examplestyle th, .examplestyle td, .examplestyle table {
   text-align:left;
   border:2px solid black;
   padding:2px;
+  border-collapse:collapse;
 }
 
 #nostyle, #nostyle th, #nostyle td{
-  border:hidden !important;
+  border:hidden;
 }
 
+.reftable, .reftable th, .reftable td {
+  text-align:left;
+  font-family:"Verdana",Monospace;
+  border:2px solid black;
+  border-collapse:collapse;
+  padding:2px;
+}
+
+.reftable th {
+  background-color:#4CAF50;
+}
+
+.reftable td {
+  background-color: #ffffff;
+}
+
+img {
+  background-color:white;
+}
+
+h2 {
+  background-color:#4CAF50;
+  width:25%;
+}
