@@ -1,8 +1,7 @@
 body {
   font-family: "Trebuchet MS", Arial, Sans-Serif;
   background-color:#F1F1F1;
-  position:absolute;
-  left:25%;
+  padding-left:100px;
 }
 
 .center {
