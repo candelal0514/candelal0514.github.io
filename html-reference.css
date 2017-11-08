@@ -1,3 +1,9 @@
+.linkheader {
+  position:absolute;
+  left:0px;
+  width:100%;
+}
+
 body {
   font-family: "Trebuchet MS", Arial, Sans-Serif;
   background-color:#F1F1F1;
@@ -7,6 +13,8 @@ body {
 .center {
   text-align:center;
 }
+
+
 
 .examplestyle {
   border-left: 15px solid #4CAF50;
