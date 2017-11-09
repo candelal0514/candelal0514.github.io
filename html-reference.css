@@ -38,20 +38,29 @@ body {
   border:hidden;
 }
 
+.reftable {
+  width:100%;
+}
+
 .reftable, .reftable th, .reftable td {
   text-align:left;
   font-family:"Verdana",Monospace;
   border:2px solid black;
   border-collapse:collapse;
-  padding:2px;
+  padding-left:10px;
+  padding-right:10px;
+  padding:5px;
 }
+
 
 .reftable th {
   background-color:#4CAF50;
+  text-align:center;
 }
 
 .reftable td {
   background-color: #ffffff;
+  text-align:center;
 }
 
 img {
