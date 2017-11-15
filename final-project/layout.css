@@ -1,0 +1,49 @@
+.content {
+  overflow:hidden;
+  background-color:#66b0ff;
+}
+
+.header {
+  background-color:#1E1E1E;
+  display:block;
+  color:white;
+}
+
+.sticky {
+  position:static;
+}
+
+.header p {
+  text-align:center;
+}
+
+.uppercase p {
+  text-transform: uppercase;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.topnav {
+  overflow:hidden;
+  background-color:#E6E6E6;
+}
+
+.topnav a {
+  float:left;
+  display:block;
+  color: #707070;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  border-bottom: 1px solid;
+  padding-bottom:2px;
+}
+
+/*.automargin {
+  
+}
