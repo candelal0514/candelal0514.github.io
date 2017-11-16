@@ -1,49 +1,79 @@
-.content {
-  overflow:hidden;
-  background-color:#66b0ff;
+body {
+  margin:0;
+   /* New York Skyline link */
 }
 
-.header {
-  background-color:#1E1E1E;
-  display:block;
+.bg1 {
+  background:url("https://goo.gl/LvVE4z");
+}
+
+.bg2 {
+  background:url("");
+}
+
+.bg3 {
+  background:url("");
+}
+
+.bg4 {
+  background:url("");
+}
+
+.bg5 {
+  background:url("");
+}
+
+.fullpageimage {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header ul {
+  list-style-type: none;
+  margin: 0;
+  padding-top: 20px;
+  padding-bottom:5%;
+  overflow: hidden;
+  margin-bottom:0;
+}
+.header li{
+  margin:0;
+  float:right;
+}
+.header a {
+  margin:0;
+  padding: 16px 30px 16px 30px;
+  text-decoration:none;
+  font-size:20px;
   color:white;
+  text-shadow: 1px 1px black;
 }
 
-.sticky {
-  position:static;
+.header .active {
+  text-shadow:1px 1px red;
 }
 
-.header p {
+.header a:hover{
+  background-color:rgb(255,255,255);
+  background-color:rgba(255,255,255,0.5);
+}
+
+.headline{
   text-align:center;
+  color:white;
+  text-transform:uppercase;
+  font-family: Sans-Serif;
+  font-size:50px;
+  font-weight:bolder;
+  padding-top:5%;
 }
 
-.uppercase p {
-  text-transform: uppercase;
+.content {
+  margin:0;
+  background-color:rgb(255,255,255);
 }
 
-.capitalize {
-  text-transform: capitalize;
-}
 
-.topnav {
-  overflow:hidden;
-  background-color:#E6E6E6;
-}
-
-.topnav a {
-  float:left;
-  display:block;
-  color: #707070;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-.topnav a:hover {
-  border-bottom: 1px solid;
-  padding-bottom:2px;
-}
-
-/*.automargin {
-  
-}
+/* hackerman activate _POWERGLOVE */
